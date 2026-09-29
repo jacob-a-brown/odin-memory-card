@@ -1,0 +1,23 @@
+*, body {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.game-board{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+    gap: 3px;
+}
+
+.card {
+    border: 1px black solid;
+}
